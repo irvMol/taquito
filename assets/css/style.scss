@@ -1,0 +1,158 @@
+﻿$color_1: #363636;
+$color_2: #940202;
+$color_5: #ec0404;
+$color_3: #653A1E;
+$color_4: #d1702f;
+$font-family_1: 'Lato', sans-serif;
+$font-family_2: 'chango', cursive;
+$font-family_3: 'Courier Prime', monospace;
+$background-color_1: #868686;
+$background-color_2: #fad232;
+$background-color_3: #FFDE59;
+
+/**** FONTS AND TEXT ****/
+body {
+	width: 100%;
+	margin: 0;
+	text-align: center;
+	font-family: $font-family_1;
+	color: $color_1;
+}
+
+.restaurant-title {
+	margin: 0;
+	font-family: $font-family_2;
+	font-size: 46px;
+	color: $color_2;
+	letter-spacing: 2px;
+	text-shadow: 2px 2px rgba(212, 123, 6, 0.3);
+}
+
+.restaurant-heading {
+	@extend .restaurant-title;
+	font-size: 18px;
+	color: $color_5;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.548);
+}
+
+h3 {
+	text-transform: lowercase;
+}
+
+p {
+	font-family: $font-family_3;
+	text-transform: lowercase;
+}
+
+a {
+	text-decoration: none;
+	color: $color_3;
+
+	&:hover {
+		color: $color_4;
+	}
+
+	&:visited {
+		color: $color_4;
+	}
+}
+
+.icon {
+	@extend a;
+	color: $color_2;
+
+	&:visited {
+		color: $color_2;
+	}
+}
+
+/**** CONTAINERS ****/
+header {
+	height: 25vh;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	overflow: hidden;
+	position: relative;
+}
+
+section {
+	padding-top: 50px;
+}
+
+.content {
+	z-index: 1;
+}
+
+.contact {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+footer {
+	margin-top: 10px;
+	background-color: $background-color_1;
+	padding: 1%;
+}
+
+/**** BUTTONS ****/
+
+.menu-button {
+	background: $background-color_2;
+	border: none;
+	display: block;
+	width: 40%;
+	padding: 1% 3%;
+	margin: 10px auto;
+	background-color: $background-color_2;
+	border-radius: 20px;
+	font-size: 20px;
+	text-transform: uppercase;
+
+	&:hover {
+		background: $background-color_2;
+		background: linear-gradient(0deg, $background-color_2 0%, $background-color_3 100%);
+	}
+}
+
+.social-icons {
+	display: flex;
+	list-style: none;
+	justify-content: center;
+
+	li {
+		margin-right: 40px;
+	}
+}
+
+/**** IMAGES ****/
+
+.header-bg {
+
+	opacity: 0.6;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: auto;
+}
+
+.logo {
+	max-width: 150px;
+}
+
+/**** MEDIA QUERIES ****/
+
+@media (min-width: 768px) and (max-width: 2000px) {
+	header {
+		height: 40vh;
+	}
+
+	.logo {
+		max-width: 200px;
+	}
+
+}
