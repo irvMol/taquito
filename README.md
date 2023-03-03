@@ -2,7 +2,7 @@
 
 ## Template for PDF Menus for small restaurant or food truck
 
-![website screenshot featuring the main page and the food menu]()
+![website screenshot featuring the main page and the food menu](https://irvmol.github.io/taquito/assets/images/screenshot.png)
 
 ### Website built with HTML & SCSS to display restaurant menus when users scan a QR code.
 
