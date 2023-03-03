@@ -95,6 +95,7 @@ footer {
   text-transform: uppercase;
 }
 .menu-button:hover {
+  color: #d1702f;
   background: #fad232;
   background: linear-gradient(0deg, #fad232 0%, #FFDE59 100%);
 }

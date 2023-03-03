@@ -113,6 +113,7 @@ footer {
 	text-transform: uppercase;
 
 	&:hover {
+		color: $color_4;
 		background: $background-color_2;
 		background: linear-gradient(0deg, $background-color_2 0%, $background-color_3 100%);
 	}
