@@ -6,7 +6,7 @@
 
 ### Website built with HTML & SCSS to display restaurant menus when users scan a QR code.
 
-![website qr code](https://irvmol.github.io/taquito/assets/images/qr.png)
+[![website qr code](https://irvmol.github.io/taquito/assets/images/qr.png)](https://irvmol.github.io/taquito)
 
 ## Powered By GitHub Pages
 
