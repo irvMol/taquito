@@ -1,26 +1,33 @@
-# taquito
+# Taquito - Simple PDF Menu Template
 
-## PDF Menu template for small restaurants, pop-up kitchens or food trucks
+Taquito is a straightforward PDF menu template designed with small restaurants, pop-up kitchens, and food trucks in mind. It offers a hassle-free way to present your menu to customers when they scan a QR code.
 
-![website screenshot featuring the main page and the food menu](https://irvmol.github.io/taquito/assets/images/screenshot.png)
+![Taquito Website Screenshot](https://irvmol.github.io/taquito/assets/images/screenshot.png)
 
-### Website built with HTML & SCSS to display restaurant menus when users scan a QR code.
+## Quick Links
 
-[![website qr code](https://irvmol.github.io/taquito/assets/images/qr.png)](https://irvmol.github.io/taquito)
+- **Demo**: Scan the QR code below or visit the [Taquito demo](https://irvmol.github.io/taquito) on GitHub Pages.
 
-## Powered By GitHub Pages
+  [![Website QR Code](https://irvmol.github.io/taquito/assets/images/qr.png)](https://irvmol.github.io/taquito)
 
-Check out the [Taquito project on GitHub Pages](https://irvmol.github.io/taquito).
+## About Taquito
 
+Taquito is powered by GitHub Pages, making it simple to host your menu online for easy access. Whether you're a small eatery or a mobile food vendor, Taquito has got you covered.
 
-### Design and Development
-All designs and elements are open source and available for free use.
+## Features
 
-Original idea by [(@blackgirlbytes)](https://github.com/blackgirlbytes)
+- **Simplicity**: Taquito is designed to be minimalistic and easy to use, perfect for smaller businesses.
+- **Open Source**: All designs and elements are open source, available for free use.
+- **Customizable**: Feel free to fork, copy, tweak, and adapt Taquito to suit your specific needs.
+- **License**: This project is released under the [MIT license](https://github.com/irvMol/taquito/blob/main/LICENSE.md), giving you the freedom to use it as you see fit.
 
-Feel free to fork, copy, tweak, and use for any purpose. This project is completely open source, and under the[MIT license](https://github.com/irvMol/taquito/blob/main/LICENSE.md). 
+## Credits
 
-Menu Design Template created with [Canva](https://www.canva.com/design/DAFb-sxEgeQ/YwHrtWDiXhIGZC59mnhe8w/view?utm_content=DAFb-sxEgeQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+- Taquito was inspired by the original idea from [@blackgirlbytes](https://github.com/blackgirlbytes).
+- The menu design template was created with [Canva](https://www.canva.com/design/DAFb-sxEgeQ/YwHrtWDiXhIGZC59mnhe8w/view?utm_content=DAFb-sxEgeQ&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink).
 
+## Get Started
 
+To start using Taquito, simply fork the repository and customize it to showcase your delicious offerings. Don't forget to check out the [demo](https://irvmol.github.io/taquito) to see it in action.
 
+Enjoy using Taquito for your small restaurant, pop-up kitchen, or food truck!
